@@ -1,10 +1,10 @@
 nav:
   Home: /
-  About: /about/
+  # About: /about/
   Writing: /archives/
-  Projects: http://github.com/probberechts
+  # Projects: http://github.com/tri613
 
-projects_url: http://github.com/probberechts
+projects_url: http://github.com/tri613
 
 customize:
     logo:
@@ -14,10 +14,9 @@ customize:
         url: /images/logo.png
         favicon: /images/favicon.png # path to favicon
     social_links:
-        github: http://github.com/probberechts/cactus-dark
-        twitter: /
-        facebook: /
-        linkedin: /
+        github: http://github.com/tri613
+        twitter: https://twitter.com/tri613
+        facebook: https://www.facebook.com/trina.lu.1
     post_count: 5
     highlight: rainbow
 
@@ -26,8 +25,8 @@ rss: false
 
 # Plugins
 plugins:
-    disqus_shortname: # Disqus Comments Shortname
-    google_analytics: UA-86660611-1 # enter the tracking ID for your Google Analytics
+    disqus_shortname: tri613-github-io
+    google_analytics: UA-67482141-4 # enter the tracking ID for your Google Analytics
 
 # Miscellaneous
 miscellaneous:
@@ -35,4 +34,3 @@ miscellaneous:
         fb_app_id:
         fb_admins:
         twitter_id:
-        google_plus:
