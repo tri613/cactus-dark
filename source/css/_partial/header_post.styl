@@ -32,7 +32,9 @@
   .active
     color: $color-accent
   #menu
-    visibility: hidden
+      display: none
+      &.open
+        display: block
   #nav
     letter-spacing: 0.01em
     font-size: .8rem
@@ -99,4 +101,18 @@
 
 @media screen and (max-width:1199px)
   #header-post
-    display: none
+    z-index: 999
+    opacity: 0.9
+    /*display: none*/
+    top: 0
+    right: 0
+    padding-right: 15px
+    width: 100%
+    background: $color-accent
+    color: #FFF
+    & #menu-icon
+      display: none
+    & #nav 
+      color: #FFF
+      & ul li 
+        border-color: #FFF
